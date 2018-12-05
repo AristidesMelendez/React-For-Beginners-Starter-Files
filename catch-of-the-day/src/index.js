@@ -1,3 +1,5 @@
-// let's go!
+import React from 'react';
+import { render } from 'react-dom';
+import StorePicker from './components/StorePicker';
 
-alert('Xopa Aristides!!!');
+render(<StorePicker />, document.querySelector('#main'));
